@@ -1,0 +1,22 @@
+name: KASSEN
+version: ${project.version}
+main: io.github.zakuLv1.kassen.KassenPlugin
+api-version: "1.20"
+description: KASSEN Game Mode Plugin - Team strategy action game
+authors:
+  - zaku-lv1
+website: https://github.com/zaku-lv1/KASSEN
+
+commands:
+  kassen:
+    description: KASSEN game command
+    usage: /kassen <subcommand>
+    permission: kassen.command
+
+permissions:
+  kassen.command:
+    description: Access to /kassen command
+    default: op
+  kassen.admin:
+    description: Administrative access
+    default: op

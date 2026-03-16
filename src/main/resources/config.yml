@@ -1,0 +1,72 @@
+# KASSEN Plugin Configuration
+
+# Game settings
+game:
+  # Default game mode: SENGOKU or BATTLE_ROYALE
+  default-mode: SENGOKU
+
+  # Lives per player (SENGOKU mode)
+  sengoku-lives: 3
+
+  # Team lives (BATTLE_ROYALE mode)
+  battle-royale-lives: 3
+
+  # Rounds needed to win (SENGOKU mode)
+  rounds-to-win: 2
+
+  # Respawn delay in seconds
+  respawn-delay: 5
+
+  # Countdown before game start in seconds
+  start-countdown: 10
+
+minion:
+  # Minion spawn interval in seconds
+  spawn-interval: 30
+
+  # Maximum minions per lane
+  max-per-lane: 5
+
+  # Minion health
+  health: 20.0
+
+  # Minion speed modifier
+  speed: 0.25
+
+  # Special gauge amount per minion kill
+  gauge-per-kill: 10
+
+boss:
+  # Mini boss health
+  health: 100.0
+
+  # Special gauge amount per boss kill
+  gauge-per-kill: 30
+
+fortress:
+  # Fortress capture time in seconds (after boss death)
+  capture-time: 10
+
+  # Fortress respawn point search radius
+  respawn-radius: 10.0
+
+castle:
+  # Castle health
+  health: 500.0
+
+player:
+  # Special gauge max value
+  gauge-max: 100
+
+  # Special gauge per player kill
+  gauge-per-player-kill: 20
+
+  # Player health
+  health: 20.0
+
+special:
+  # Special attack damage
+  damage: 15.0
+
+  # Special attack radius
+  radius: 5.0
